@@ -27,7 +27,7 @@ console.log('Initializing...');
 client.initialize();
 
 client.on('qr', () => {
-    console.log('Please scan the QR code on the browser.');
+    console.log('Please scan the QR code given on the browser.');
 });
 
 client.on('ready', () => {
